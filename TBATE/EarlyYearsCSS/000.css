@@ -1,0 +1,62 @@
+body {
+    background-image: url(/TBATE/Images/EarlyYears.png);
+    background-size: cover;
+}
+
+.ChapterBar {
+    display: inline-block;
+}
+
+.ChapterBar button {
+    position: relative;
+    left: 473px;
+    background-color: rgb(38, 38, 38, 0.9);
+    border: none;
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    width: 20em;
+    height: 2em;
+
+    color: beige;
+    font-weight: bold;
+    font-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.ChapterBar a {
+    display: block;
+
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    padding: 2px 2px;
+
+}
+
+.ChapterBar .Chapters {
+    display: none;
+    position: relative;
+    left: 506px;
+
+    background-color: rgb(38, 38, 38);
+    border: none;
+    border-radius: 0px;
+
+
+    text-align: center;
+    max-width: 255px;
+}
+
+.ChapterBar:hover .Chapters{
+    display: block;
+
+}
+
+.Chapters a:hover {
+    background-color: rgb(13, 13, 13);
+}
